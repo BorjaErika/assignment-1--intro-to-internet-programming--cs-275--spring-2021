@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+@@font-face {
+  font-family:sans-serif;
+}
+html {
+  background-color: rgb(192, 192, 192);
+  border-left: 1px solid rgb(51, 51, 51);
+       border-right: 1px solid rgb(51, 51, 51);
+  font-family: Tahoma, sans-serif;
+}
+/* Body Header Navigation Styles */
+body {
+background-color: rgb(115, 112,107);
+margin: 1px auto;
+width: 1000%;
+max-width: 500px;
+min-width: 1000px;
+}
+
+body > header {
+background-color: white;
+height: -100px;
+margin-bottom:30px;
+position: relative;
+}
+
+body > header > nav.toplinks {
+float:left;
+margin: 10px;
+width: 40%;
+}
+
+body > header > nav.toplinks li {
+font-family: sans-serif;
+float:left;
+letter-spacing: 0.1px;
+margin-top: 10px;
+width: 20%;
+}
+
+nav.toplinks li a:visited, nav.toplinks li a:link {
+color: rgb(151, 151, 151);
+}
+
+nav.toplinks li a:active, nav.toplinks li a:hover {
+color: rgb(20, 167, 170);
+}
+
+body > header nav.tabs {
+position: absolute;
+bottom: 0px;
+height: 100px;
+width: 100%;
+}
+
+body > header nav.tabs::after {
+clear: both;
+content: "";
+display: table;
+}
+
+body > header > nav.tabs > ul {
+position: absolute;
+bottom: 0px;
+width: 100%;
+}
+
+body > header nav.tabs li {
+background-color: rgb(110, 110, 153);
+display: block;
+float: left;
+height: 10px;
+letter-spacing: 2px;
+line-height: 10px;
+margin-left: 0%;
+margin-right: 2%;
+width: 15%;
+}
+
+body > header nav.tabs li:first-of-type {
+background-color: rgb(194, 194,194);
+margin-left: 2%;
+}
+
+body > header nav.tabs li:last-of-type {
+margin-right: 2%;
+}
+
+body > header nav.tabs li a {
+color: rgb(61, 61, 61);
+display: block;
+text-align: center;
+width: 100%;
+}
+
+section#left nav.vertical a:hover {
+text-decoration: underline;
+}
+
+
+body{
+  box-shadow: rgb(51,51,51) 10px 0 50px,
+             rgb(51,51,51) -10px 0 50px;
+  font-family: sans-serif;
+
+}
+
+/* Navigation Tabs List Styles */
+
+body > header nav.tabs {
+background: url(download.jpg) no-repeat;
+background-position: center center;
+background-size: cover;
+}
+
+body > header nav.tabs li {
+transform: perspective(100px) rotateX(30deg);
+
+}
+body > header nav.tabs li:hover {
+background-color: rgb(344,344,344);
+}
+
+h1{font-size:60px;
+letter-spacing: inherit;
+text-align: center;
+font-style: oblique;
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 40px;
+padding-top: 40px
+}
+
+h1{
+  border-right: 1px solid rgb(61,61,61);
+  border-left: 1px solid rgb(61,61,61);
+  box-shadow: rgb(61, 61, 61) 15px 0px 25px,
+              rgb(61, 61, 61) -15px 0px 25px;
+}
+p{
+  padding: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: blue;
+}
+
+img{
+  transform: rotate(10deg) scale(1.0,1.0) translateY(65px)translate(50px,-60px) ;
+
+}
+
+/* Left Section Styles */
